@@ -1,0 +1,75 @@
+.company-profile-container {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-box {
+    width: 97vw;
+    height: 80vh;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.dashboard-job-list-container {
+    margin: 0px auto 10px auto; 
+    width: 310px;
+    order: 2;
+    height: 85%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+}
+
+.dashboard-job-list-container::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.job-item-container {
+    height: 80px;
+    padding: 8px;
+}
+
+.job-item-container:hover {
+    cursor: pointer;
+    background-color: #add8e6;
+    border-radius: 5px;
+}
+
+.archive-button {
+    background-color: #1976d2;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    width: 180px;
+    display: block;
+    cursor: pointer;
+}
+
+.dashboard-applicant-edit-button {
+    border: 0px; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.job-info-details-container {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+}
+
+.job-info-details-container::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}

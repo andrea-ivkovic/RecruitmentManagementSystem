@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d6d6d6;
+}
+
+.remove-admin-role-button{
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.assign-admin-role-button{
+    border-radius: 5px;
+    border: 2px solid green;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.delete-account-button{
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.remove-admin-role-button:hover{
+    background-color: blue;
+}
+
+.assign-admin-role-button:hover{
+    background-color: green;
+}
+
+.delete-account-button:hover{
+    background-color: red;
+}
+
+.background-border{
+    border: 5px solid #88bdbc;
+    width: 1100px;
+    min-height: 665px;
+    margin: 27px auto 27px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.button {
+    background-color: #88bdbc;
+    color: #254e58;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    width: 180px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.apply-now-button{
+    background-color: #1976d2;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    width: 180px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+
